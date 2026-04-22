@@ -1,6 +1,6 @@
 # 🏝️ IslandLedger — Animal Crossing Economy Tracker
 
-### A complete database project explained for absolute beginners
+### Complete explanation of the database project
 
 **Built for:** IS480 Advanced Database Management (CSULB, Spring 2026)
 
