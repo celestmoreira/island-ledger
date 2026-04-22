@@ -76,7 +76,7 @@ Our project builds all three layers. The data flows from Phase 1 → Phase 2 →
 
 ## Why Animal Crossing?
 
-This might seem like a random choice, but Animal Crossing's island economy is actually a perfect miniature version of a real economy:
+Animal Crossing's island economy is actually a perfect miniature version of a real economy:
 
 | Animal Crossing | Real World |
 |---|---|
@@ -89,7 +89,7 @@ This might seem like a random choice, but Animal Crossing's island economy is ac
 | Turnip stalk market | Stock market / Speculative trading |
 | Budget categories with limits | Personal finance apps (Mint, YNAB) |
 
-We're tracking the same things any fintech app would track — just with cute animals instead of real money.
+We're tracking the same things any fintech app would track, just with cute animals instead of real money.
 
 ---
 
@@ -99,11 +99,11 @@ We're tracking the same things any fintech app would track — just with cute an
 
 ### What is a Schema?
 
-A schema is just a collection of tables. A table is like a spreadsheet — it has rows (records) and columns (fields). When we say "design a schema," we mean "decide what spreadsheets we need and what columns each one should have."
+A schema is just a collection of tables. A table is like a spreadsheet, it has rows (records) and columns (fields). When we say "design a schema," we mean "decide what spreadsheets we need and what columns each one should have."
 
 ### What is PL/SQL?
 
-PL/SQL stands for "Procedural Language / SQL." Regular SQL can only ask questions (`SELECT * FROM users`) or make changes (`INSERT INTO users ...`). PL/SQL lets you write actual programs — with variables, if/else logic, loops, and error handling — that live inside the database.
+PL/SQL stands for "Procedural Language / SQL." Regular SQL can only ask questions (`SELECT * FROM users`) or make changes (`INSERT INTO users ...`). PL/SQL lets you write actual programs, with variables, if/else logic, loops, and error handling, that live inside the database.
 
 Think of it this way: SQL is like asking a librarian a question. PL/SQL is like giving the librarian a detailed procedure to follow: "Look up this book. If it exists, check if it's available. If it is, check it out to this person. If not, tell them it's unavailable."
 
@@ -111,7 +111,7 @@ Think of it this way: SQL is like asking a librarian a question. PL/SQL is like 
 
 A package is Oracle's way of bundling related code together. It has two parts:
 
-- **Specification (the menu):** Lists what's available — "we have these 5 procedures and these 5 functions." Doesn't show any code.
+- **Specification (the menu):** Lists what's available, "we have these 5 procedures and these 5 functions." Doesn't show any code.
 - **Body (the kitchen):** Contains the actual code that does the work.
 
 Why separate them? Because other code only needs to know *what* your package can do (the spec), not *how* it does it (the body). This is called **encapsulation** — the same concept as classes in Java or Python.
